@@ -23,4 +23,14 @@
         android:name="com.example.myapplication.ui.Collection.CollectionFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_collection" />
+    <fragment
+        android:id="@+id/authorFragment"
+        android:name="com.example.myapplication.ui.Author.AuthorFragment"
+        android:label="fragment_author"
+        tools:layout="@layout/fragment_author" />
+    <fragment
+        android:id="@+id/antiochFragment"
+        android:name="com.example.myapplication.ui.AntiochCoins.AntiochFragment"
+        android:label="fragment_antioch"
+        tools:layout="@layout/fragment_antioch" />
 </navigation>

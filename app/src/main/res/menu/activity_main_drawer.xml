@@ -16,5 +16,9 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/free_icon_treasure"
             android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/authorFragment"
+            android:icon="@drawable/free_icon_helmet_armet"
+            android:title="Author" />
     </group>
 </menu>
