@@ -16,7 +16,20 @@
         android:id="@+id/nav_gallery"
         android:name="com.example.myapplication.ui.Coins.CoinsFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_coins" />
+        tools:layout="@layout/fragment_coins" >
+        <action
+            android:id="@+id/action_nav_gallery_to_antiochFragment"
+            app:destination="@id/antiochFragment" />
+        <action
+            android:id="@+id/action_nav_gallery_to_jerusalemFragment"
+            app:destination="@id/jerusalemFragment" />
+        <action
+            android:id="@+id/action_nav_gallery_to_tripoliFragment"
+            app:destination="@id/tripoliFragment" />
+        <action
+            android:id="@+id/action_nav_gallery_to_teutonicFragment"
+            app:destination="@id/teutonicFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_slideshow"
@@ -33,4 +46,19 @@
         android:name="com.example.myapplication.ui.AntiochCoins.AntiochFragment"
         android:label="fragment_antioch"
         tools:layout="@layout/fragment_antioch" />
+    <fragment
+        android:id="@+id/jerusalemFragment"
+        android:name="com.example.myapplication.ui.JerusalemCoins.JerusalemFragment"
+        android:label="fragment_jerusalem"
+        tools:layout="@layout/fragment_jerusalem" />
+    <fragment
+        android:id="@+id/tripoliFragment"
+        android:name="com.example.myapplication.ui.TripoliCoins.TripoliFragment"
+        android:label="fragment_tripoli"
+        tools:layout="@layout/fragment_tripoli" />
+    <fragment
+        android:id="@+id/teutonicFragment"
+        android:name="com.example.myapplication.ui.TeutonicCoins.TeutonicFragment"
+        android:label="fragment_teutonic"
+        tools:layout="@layout/fragment_teutonic" />
 </navigation>
