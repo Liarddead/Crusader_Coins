@@ -60,5 +60,14 @@
         android:id="@+id/teutonicFragment"
         android:name="com.example.myapplication.ui.TeutonicCoins.TeutonicFragment"
         android:label="fragment_teutonic"
-        tools:layout="@layout/fragment_teutonic" />
+        tools:layout="@layout/fragment_teutonic" >
+        <action
+            android:id="@+id/action_teutonicFragment_to_shilingKniprodeFragment"
+            app:destination="@id/shilingKniprodeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shilingKniprodeFragment"
+        android:name="com.example.myapplication.ui.TeutonicCoins.Shiling_Kniprode.ShilingKniprodeFragment"
+        android:label="fragment_shiling_kniprode"
+        tools:layout="@layout/fragment_shiling_kniprode" />
 </navigation>

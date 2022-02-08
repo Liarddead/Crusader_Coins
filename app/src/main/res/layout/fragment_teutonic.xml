@@ -1,8 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.TeutonicCoins.TeutonicFragment">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="968dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:id="@+id/shiling_kniprode_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                tools:layout_editor_absoluteX="9dp"
+                tools:layout_editor_absoluteY="26dp">
+
+                <ImageView
+                    android:layout_margin="0dp"
+                    android:id="@+id/button"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/monet_teutonic_shiling_knirode_avers"/>
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/button"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/medievalsharp"
+                    android:textStyle="bold"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="Shilling of Magister Winrich von Kniprode  (1351-1382)"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>
