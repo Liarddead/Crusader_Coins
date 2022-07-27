@@ -12,14 +12,13 @@
     <string name="menu_slideshow">Collection</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="text">
-        asddddddddddddddddddddddddddddddddddddddddd
-        asddddddddddaaf
-        easfojjsjhafnkejwnuljankfljmokwmifjwomueu
-        safkhiyknuewuyehnmjunynnhnhnhnnhndsjfjhknahkbjwbehnjwehnwfhnwfeknfenwnw
-        skdamfnhebwnuebhjhbmnmolklmnhsjghkndmha,fmshadfkj ghjkndgyuskajkueavhkjdsbieUKLEJ
-        ASHDABGSJDBAJBSHAGJHJFNYGWHKQNBEUHKJSANBUFHJKNwuhSKJDNGWHJEJBF WYGWHJNAWSDJK
-        ASFBNESNAUHKJNGE WHKJSANWBKLFKJHETREKLSEFAKVDSFGFKAWhkNEWGE;AFNCILSK;FZD,
-        SADMEUWIJKLKFM,MUHWKJLA;,D,WIEW.
+    <string name="description_shil_knipr">
+        Obverse: Grandmaster shielded arms.
+           Lettering: + MΛGST WYnRICS PRImS
+
+        Reverse: Large shield with long cross.
+           Lettering: + MOnЄTΛ DnORVm PRVCI
+
+        Technique: Hammered
     </string>
 </resources>
