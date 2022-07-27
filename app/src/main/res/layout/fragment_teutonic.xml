@@ -28,7 +28,7 @@
 
                 <ImageView
                     android:layout_margin="0dp"
-                    android:id="@+id/button"
+                    android:id="@+id/image_shiling_kniprode"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:layout_width="100dp"
@@ -39,7 +39,7 @@
                     android:layout_centerVertical="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toEndOf="@+id/button"
+                    android:layout_toEndOf="@+id/image_shiling_kniprode"
                     android:layout_margin="10dp"
                     android:fontFamily="@font/medievalsharp"
                     android:textStyle="bold"
@@ -52,7 +52,110 @@
 
             </RelativeLayout>
 
+            <RelativeLayout
+                android:id="@+id/vierchen_kniprode_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                tools:layout_editor_absoluteX="9dp"
+                tools:layout_editor_absoluteY="26dp">
 
+                <ImageView
+                    android:layout_margin="0dp"
+                    android:id="@+id/image_vierchen_kniprode"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/virchen_kniprode_avers_dec"/>
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/image_vierchen_kniprode"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/medievalsharp"
+                    android:textStyle="bold"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="Vierchen of Magister Winrich von Kniprode  (1351-1382)"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/shilling_kniprode_alt_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                tools:layout_editor_absoluteX="9dp"
+                tools:layout_editor_absoluteY="26dp">
+
+                <ImageView
+                    android:layout_margin="0dp"
+                    android:id="@+id/image_shiling_kniprode_alt"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/shiling_kniprode_alt_avers_dec"/>
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/image_shiling_kniprode_alt"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/medievalsharp"
+                    android:textStyle="bold"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="Alternative shilling of Magister Winrich von Kniprode  (1351-1382)"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/halbschoter_kniprode_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                tools:layout_editor_absoluteX="9dp"
+                tools:layout_editor_absoluteY="26dp">
+
+                <ImageView
+                    android:layout_margin="0dp"
+                    android:id="@+id/image_halbschoter_kniprode"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/halbschoter_kniprode_avers_dec"/>
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/image_halbschoter_kniprode"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/medievalsharp"
+                    android:textStyle="bold"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="Halbschoter of Magister Winrich von Kniprode  (1351-1382)"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </RelativeLayout>
         </LinearLayout>
     </ScrollView>
 </FrameLayout>

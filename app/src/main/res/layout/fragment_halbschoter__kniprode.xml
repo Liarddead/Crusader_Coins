@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.TeutonicCoins.Shiling_Kniprode.ShilingKniprodeFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.TeutonicCoins.Halbschoter_Kniprode.Halbschoter_Kniprode">
 
     <!-- TODO: Update blank fragment layout -->
     <ImageView
@@ -63,7 +63,7 @@
             android:layout_gravity="top"
             android:layout_marginStart="20dp"
             android:layout_marginTop="5dp"
-            android:background="@drawable/shiling_kniprode" />
+            android:background="@drawable/haelbschoter_kniprode" />
 
 
         <TableLayout
@@ -102,7 +102,7 @@
                     android:gravity="left"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="Shilling"
+                    android:text="Halbschoter"
                     android:textColor="@color/black"
                     android:textSize="20dp" />
             </TableRow>
@@ -192,7 +192,7 @@
                     android:gravity="left"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="1,71 g"
+                    android:text="3,16 g"
                     android:textColor="@color/black"
                     android:textSize="20dp" />
             </TableRow>
@@ -222,7 +222,7 @@
                     android:gravity="left"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="21 mm"
+                    android:text="28 mm"
                     android:textColor="@color/black"
                     android:textSize="20dp" />
             </TableRow>
@@ -276,7 +276,7 @@
                     android:gravity="left"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="18 $"
+                    android:text="120 $"
                     android:textColor="@color/black"
                     android:textSize="20dp" />
             </TableRow>
@@ -302,45 +302,45 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-            <RelativeLayout
-                android:id="@+id/rl"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:background="@color/white"
-                tools:layout_editor_absoluteX="9dp"
-                tools:layout_editor_absoluteY="26dp">
+                <RelativeLayout
+                    android:id="@+id/rl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"
+                    tools:layout_editor_absoluteX="9dp"
+                    tools:layout_editor_absoluteY="26dp">
 
-            <TextView
-                android:id="@+id/des"
-                android:layout_width="300dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="0dp"
-                android:background="@color/dark_grey"
-                android:fontFamily="@font/medievalsharp"
-                android:gravity="center"
-                android:paddingStart="5dp"
-                android:paddingEnd="5dp"
-                android:text="Description"
-                android:textColor="@color/black"
-                android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/des"
+                        android:layout_width="300dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="0dp"
+                        android:background="@color/dark_grey"
+                        android:fontFamily="@font/medievalsharp"
+                        android:gravity="center"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:text="Description"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_below="@+id/des"
-                    android:layout_marginStart="0dp"
-                    android:background="@color/dark_grey"
-                    android:fontFamily="@font/medievalsharp"
-                    android:gravity="center"
-                    android:paddingStart="5dp"
-                    android:paddingEnd="5dp"
-                    android:text="@string/description_shil_knipr"
-                    android:textColor="@color/black"
-                    android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/des"
+                        android:layout_marginStart="0dp"
+                        android:background="@color/dark_grey"
+                        android:fontFamily="@font/medievalsharp"
+                        android:gravity="center"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:text="@string/description_halb_knipr"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
 
 
-            </RelativeLayout>
+                </RelativeLayout>
             </LinearLayout>
         </ScrollView>
 

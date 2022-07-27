@@ -64,10 +64,34 @@
         <action
             android:id="@+id/action_teutonicFragment_to_shilingKniprodeFragment"
             app:destination="@id/shilingKniprodeFragment" />
+        <action
+            android:id="@+id/action_teutonicFragment_to_vierchen_kniprode"
+            app:destination="@id/vierchen_kniprode" />
+        <action
+            android:id="@+id/action_teutonicFragment_to_shilling_kniprode_alternative"
+            app:destination="@id/shilling_kniprode_alternative" />
+        <action
+            android:id="@+id/action_teutonicFragment_to_halbschoter_Kniprode"
+            app:destination="@id/halbschoter_Kniprode" />
     </fragment>
     <fragment
         android:id="@+id/shilingKniprodeFragment"
         android:name="com.example.myapplication.ui.TeutonicCoins.Shiling_Kniprode.ShilingKniprodeFragment"
         android:label="fragment_shiling_kniprode"
         tools:layout="@layout/fragment_shiling_kniprode" />
+    <fragment
+        android:id="@+id/vierchen_kniprode"
+        android:name="com.example.myapplication.ui.TeutonicCoins.Vierchen_kniprode.Vierchen_kniprode"
+        android:label="fragment_vierchen_kniprode"
+        tools:layout="@layout/fragment_vierchen_kniprode" />
+    <fragment
+        android:id="@+id/shilling_kniprode_alternative"
+        android:name="com.example.myapplication.ui.TeutonicCoins.Shilling_Kniprode_alt.shilling_kniprode_alternative"
+        android:label="fragment_shilling_kniprode_alternative"
+        tools:layout="@layout/fragment_shilling_kniprode_alternative" />
+    <fragment
+        android:id="@+id/halbschoter_Kniprode"
+        android:name="com.example.myapplication.ui.TeutonicCoins.Halbschoter_Kniprode.Halbschoter_Kniprode"
+        android:label="fragment_halbschoter__kniprode"
+        tools:layout="@layout/fragment_halbschoter__kniprode" />
 </navigation>

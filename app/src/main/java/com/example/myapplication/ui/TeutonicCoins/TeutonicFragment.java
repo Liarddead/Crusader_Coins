@@ -21,7 +21,9 @@ import com.example.myapplication.databinding.FragmentTeutonicBinding;
 public class TeutonicFragment extends Fragment {
     private  FragmentTeutonicBinding binding;
     RelativeLayout ShilingKniprodeButton;
-
+    RelativeLayout VierchenKniprodeButton;
+    RelativeLayout ShilingaltKniprodeButton;
+    RelativeLayout HalbschoterKniprodeButton;
 
     public TeutonicFragment() {
         // Required empty public constructor
@@ -35,6 +37,9 @@ public class TeutonicFragment extends Fragment {
         binding = FragmentTeutonicBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
         ShilingKniprodeButton = (RelativeLayout) root.findViewById(R.id.shiling_kniprode_button);
+        VierchenKniprodeButton = (RelativeLayout) root.findViewById(R.id.vierchen_kniprode_button);
+        ShilingaltKniprodeButton =(RelativeLayout) root.findViewById(R.id.shilling_kniprode_alt_button);
+        HalbschoterKniprodeButton = (RelativeLayout) root.findViewById(R.id.halbschoter_kniprode_button);
         ShilingKniprodeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -42,13 +47,29 @@ public class TeutonicFragment extends Fragment {
             }
         });
 
+        VierchenKniprodeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.action_teutonicFragment_to_vierchen_kniprode);
+            }
+        });
+        ShilingaltKniprodeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.action_teutonicFragment_to_shilling_kniprode_alternative);
+            }
+        });
+        HalbschoterKniprodeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.action_teutonicFragment_to_halbschoter_Kniprode);
+            }
+        });
+
         // Inflate the layout for this fragment
         return root;
     }
 
-    public void move_to_shiling_kniprode(View view) {
-        Navigation.findNavController(view).navigate(R.id.action_teutonicFragment_to_shilingKniprodeFragment);
-    }
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;

@@ -14,11 +14,37 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="description_shil_knipr">
         Obverse: Grandmaster shielded arms.
-           Lettering: + MΛGST WYnRICS PRImS
+           Lettering: + MΛGST WYnRICS PRImS.
 
         Reverse: Large shield with long cross.
-           Lettering: + MOnЄTΛ DnORVm PRVCI
+           Lettering: + MOnЄTΛ DnORVm PRVCI.
 
-        Technique: Hammered
+        Technique: Hammered.
+    </string>
+
+    <string name="description_vierch_knipr">
+        Obverse: Gransmasters shield,
+            Lettering: MAGISTER GENERALIS.
+
+        Reverse: Large cross.
+            Lettering: DOMINORVM PRVSSIE.
+
+        Technique: Hammered.
+    </string>
+
+    <string name="description_shil_knipr_alt">
+        Obverse: Shielded arms over long cross, legend surrounding.
+
+        Reverse: Lilly cross within quatrefoil, legend surrounding.
+
+        Technique: Hammered.
+    </string>
+
+    <string name="description_halb_knipr">
+        Obverse: Grandmaster shielded arms, legend surrounding.
+
+        Reverse: Great cross within quatrefoil, legend surrounding.
+
+        Technique: Hammered.
     </string>
 </resources>
