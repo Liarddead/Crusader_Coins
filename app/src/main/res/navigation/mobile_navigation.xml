@@ -73,6 +73,18 @@
         <action
             android:id="@+id/action_teutonicFragment_to_halbschoter_Kniprode"
             app:destination="@id/halbschoter_Kniprode" />
+        <action
+            android:id="@+id/action_teutonicFragment_to_shilling_Konrad1"
+            app:destination="@id/shilling_Konrad1" />
+        <action
+            android:id="@+id/action_teutonicFragment_to_shilling_Conrad_jung"
+            app:destination="@id/shilling_Conrad_jung" />
+        <action
+            android:id="@+id/action_teutonicFragment_to_shilling_Conrad_Jung_dan"
+            app:destination="@id/shilling_Conrad_Jung_dan" />
+        <action
+            android:id="@+id/action_teutonicFragment_to_shilling_Ulrich_Jung"
+            app:destination="@id/shilling_Ulrich_Jung" />
     </fragment>
     <fragment
         android:id="@+id/shilingKniprodeFragment"
@@ -94,4 +106,24 @@
         android:name="com.example.myapplication.ui.TeutonicCoins.Halbschoter_Kniprode.Halbschoter_Kniprode"
         android:label="fragment_halbschoter__kniprode"
         tools:layout="@layout/fragment_halbschoter__kniprode" />
+    <fragment
+        android:id="@+id/shilling_Konrad1"
+        android:name="com.example.myapplication.ui.TeutonicCoins.Shilling_Konrad1.Shilling_Konrad1"
+        android:label="fragment_shilling__konrad1"
+        tools:layout="@layout/fragment_shilling__konrad1" />
+    <fragment
+        android:id="@+id/shilling_Conrad_jung"
+        android:name="com.example.myapplication.ui.TeutonicCoins.Shilling_Conrad_Jung.Shilling_Conrad_jung"
+        android:label="fragment_shilling__conrad_jung"
+        tools:layout="@layout/fragment_shilling__conrad_jung" />
+    <fragment
+        android:id="@+id/shilling_Conrad_Jung_dan"
+        android:name="com.example.myapplication.ui.TeutonicCoins.Shilling_Conrad_Jung_dan.Shilling_Conrad_Jung_dan"
+        android:label="fragment_shilling__conrad__jung_dan"
+        tools:layout="@layout/fragment_shilling__conrad__jung_dan" />
+    <fragment
+        android:id="@+id/shilling_Ulrich_Jung"
+        android:name="com.example.myapplication.ui.TeutonicCoins.Shilling_Ulrich_Jung.Shilling_Ulrich_Jung"
+        android:label="fragment_shilling__ulrich__jung"
+        tools:layout="@layout/fragment_shilling__ulrich__jung" />
 </navigation>

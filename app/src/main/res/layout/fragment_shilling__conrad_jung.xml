@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.TeutonicCoins.Shilling_Conrad_Jung.Shilling_Conrad_jung">
+
+    <ImageView
+        android:id="@+id/Top_decor"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="top"
+        android:layout_margin="5dp"
+        android:background="@drawable/ornament_top_1" />
+    <ImageView
+        android:id="@+id/left_decor"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/left_ornament_1" />
+    <ImageView
+        android:id="@+id/right_decor"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/right_ornament_1" />
+
+
+    <ImageView
+        android:id="@+id/Bottom_decor"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="5dp"
+        android:background="@drawable/ornament_bottom_1" />
+
+    <RelativeLayout
+        android:id="@+id/main_inf"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="top"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shilling_konrad_jung" />
+
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp">
+
+            <TableRow>
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:background="@color/dark_grey"
+                    android:fontFamily="@font/medievalsharp"
+                    android:includeFontPadding="false"
+                    android:text="Name"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    app:autoSizeTextType="none" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="0dp"
+                    android:background="@color/dark_grey"
+                    android:fontFamily="@font/medievalsharp"
+                    android:gravity="left"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="Shilling"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:background="@color/light_grey"
+                    android:fontFamily="@font/medievalsharp"
+                    android:includeFontPadding="false"
+                    android:text="Year"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    app:autoSizeTextType="none" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="0dp"
+                    android:background="@color/light_grey"
+                    android:fontFamily="@font/medievalsharp"
+                    android:gravity="left"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="1393-1407"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:background="@color/dark_grey"
+                    android:fontFamily="@font/medievalsharp"
+                    android:includeFontPadding="false"
+                    android:text="Magister"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    app:autoSizeTextType="none" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="0dp"
+                    android:background="@color/dark_grey"
+                    android:fontFamily="@font/medievalsharp"
+                    android:gravity="left"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="Conrad von Jungingen"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:background="@color/light_grey"
+                    android:fontFamily="@font/medievalsharp"
+                    android:includeFontPadding="false"
+                    android:text="Weight"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    app:autoSizeTextType="none" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="0dp"
+                    android:background="@color/light_grey"
+                    android:fontFamily="@font/medievalsharp"
+                    android:gravity="left"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="1,71 g"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:background="@color/dark_grey"
+                    android:fontFamily="@font/medievalsharp"
+                    android:includeFontPadding="false"
+                    android:text="Diameter"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    app:autoSizeTextType="none" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="0dp"
+                    android:background="@color/dark_grey"
+                    android:fontFamily="@font/medievalsharp"
+                    android:gravity="left"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="21 mm"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:background="@color/light_grey"
+                    android:fontFamily="@font/medievalsharp"
+                    android:includeFontPadding="false"
+                    android:text="Material"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    app:autoSizeTextType="none" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="0dp"
+                    android:background="@color/light_grey"
+                    android:fontFamily="@font/medievalsharp"
+                    android:gravity="left"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="Silver"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:background="@color/dark_grey"
+                    android:fontFamily="@font/medievalsharp"
+                    android:includeFontPadding="false"
+                    android:text="Auction price vf"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    app:autoSizeTextType="none" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="0dp"
+                    android:background="@color/dark_grey"
+                    android:fontFamily="@font/medievalsharp"
+                    android:gravity="left"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="40 $"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </TableRow>
+
+
+
+        </TableLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/description"
+            android:layout_below="@+id/table"
+            android:layout_centerHorizontal="true"
+            android:background="@color/dark_grey"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:id="@+id/rl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"
+                    tools:layout_editor_absoluteX="9dp"
+                    tools:layout_editor_absoluteY="26dp">
+
+                    <TextView
+                        android:id="@+id/des"
+                        android:layout_width="300dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="0dp"
+                        android:background="@color/dark_grey"
+                        android:fontFamily="@font/medievalsharp"
+                        android:gravity="center"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:text="Description"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/des"
+                        android:layout_marginStart="0dp"
+                        android:background="@color/dark_grey"
+                        android:fontFamily="@font/medievalsharp"
+                        android:gravity="center"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:text="@string/description_shil_conr_jung"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/description"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/dark_grey">
+
+            <ImageView
+                android:id="@+id/button"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/free_icon_treasure" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:layout_toEndOf="@+id/button"
+                android:fontFamily="@font/medievalsharp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Add to Collection"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

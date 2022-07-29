@@ -47,4 +47,40 @@
 
         Technique: Hammered.
     </string>
+
+    <string name="description_shil_konr1">
+        Obverse: Grandmaster shielded arms. Legend surrounding.
+
+        Reverse: Large shield with long cross.
+
+        Technique: Hammered.
+    </string>
+
+    <string name="description_shil_conr_jung">
+        Obverse: Shield with shielded eagle arms, small cross within large cross. Legend surrounding.
+
+        Reverse: Cross within shield. Legend surrounding.
+
+        Technique: Hammered.
+    </string>
+
+    <string name="description_shil_conr_jung_dan">
+        Obverse: Shield with shielded arms in center on top of long cross.
+        Lettering: MAGST’ CORADVS TERCI.
+
+        Reverse: Long cross over shield.
+        Lettering: MONETA DNORUM PRVCI.
+
+        Technique: Hammered.
+    </string>
+
+    <string name="description_shil_ulrich_jung">
+        Obverse: Shield with shielded eagle arms, small cross within large cross. Legend surrounding.
+        Lettering: MAGST VLRICVS PRIMV.
+
+        Reverse: Cross within shield, legend surrounding.
+        Lettering: MONETA DNORVM PRVC.
+
+        Technique: Hammered.
+    </string>
 </resources>
