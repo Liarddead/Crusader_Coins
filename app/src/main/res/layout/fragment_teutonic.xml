@@ -296,6 +296,42 @@
 
             </RelativeLayout>
 
+            <RelativeLayout
+                android:id="@+id/shiling_henrich_plauen_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                tools:layout_editor_absoluteX="9dp"
+                tools:layout_editor_absoluteY="26dp">
+
+                <ImageView
+                    android:layout_margin="0dp"
+                    android:id="@+id/image_shiling_henrich_plauen"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/shilling_henrich_plauen_avers_dec"/>
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/image_shiling_henrich_plauen"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/medievalsharp"
+                    android:textStyle="bold"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="Shilling of Magister Heinrich der Ältere von Plauen (1410-1413)"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </RelativeLayout>
+
+
 
         </LinearLayout>
     </ScrollView>

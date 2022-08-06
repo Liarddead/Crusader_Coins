@@ -85,6 +85,9 @@
         <action
             android:id="@+id/action_teutonicFragment_to_shilling_Ulrich_Jung"
             app:destination="@id/shilling_Ulrich_Jung" />
+        <action
+            android:id="@+id/action_teutonicFragment_to_shilling_Henrich_Plauen"
+            app:destination="@id/shilling_Henrich_Plauen" />
     </fragment>
     <fragment
         android:id="@+id/shilingKniprodeFragment"
@@ -126,4 +129,9 @@
         android:name="com.example.myapplication.ui.TeutonicCoins.Shilling_Ulrich_Jung.Shilling_Ulrich_Jung"
         android:label="fragment_shilling__ulrich__jung"
         tools:layout="@layout/fragment_shilling__ulrich__jung" />
+    <fragment
+        android:id="@+id/shilling_Henrich_Plauen"
+        android:name="com.example.myapplication.ui.TeutonicCoins.Shilling_Henrich_Plauen.Shilling_Henrich_Plauen"
+        android:label="fragment_shilling__henrich__plauen"
+        tools:layout="@layout/fragment_shilling__henrich__plauen" />
 </navigation>
