@@ -91,4 +91,41 @@
 
         Technique: Hammered.
     </string>
+
+    <string name="description_shil_herman_gans">
+        Obverse: Grandmasters shield within inner circle, legend surrounding.
+        Lettering: +MAGISTER xx GENERALIS.
+
+        Reverse: Shield of the order with letter D above, legend surrounding.
+        Lettering: +MONETA +x DNORVM + PRVC.
+
+        Technique: Hammered.
+    </string>
+
+    <string name="description_shil_michael_kuch">
+        Obverse: Grandmasters shielded arms, legend surrounding.
+        Lettering:  *MAGST·MICHAEL·PRI.
+
+        Reverse: Cross in shield, legend surrounding.
+        Lettering: *MONETA·DNORUM·PRU.
+
+        Technique: Hammered.
+    </string>
+
+    <string name="description_shil_michael_kuch_thorn">
+        Obverse: Grandmasters shielded arms with long cross cutting through the legend.
+
+        Reverse: Shielded arms with long cross cutting through the legend.
+
+
+        Technique: Hammered.
+    </string>
+
+    <string name="description_halb_michael_kuch">
+        Obverse: Grandmaster shielded arms, legend surrounding.
+
+        Reverse: Great cross within quatrefoil, legend surrounding.
+
+        Technique: Hammered.
+    </string>
 </resources>

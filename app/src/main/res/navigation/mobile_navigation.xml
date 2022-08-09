@@ -88,6 +88,18 @@
         <action
             android:id="@+id/action_teutonicFragment_to_shilling_Henrich_Plauen"
             app:destination="@id/shilling_Henrich_Plauen" />
+        <action
+            android:id="@+id/action_teutonicFragment_to_shilling_Herman_Gans"
+            app:destination="@id/shilling_Herman_Gans" />
+        <action
+            android:id="@+id/action_teutonicFragment_to_shilling_Michael_Kuchmeister"
+            app:destination="@id/shilling_Michael_Kuchmeister" />
+        <action
+            android:id="@+id/action_teutonicFragment_to_shilling_Michael_Kuchmeister_thorn"
+            app:destination="@id/shilling_Michael_Kuchmeister_thorn" />
+        <action
+            android:id="@+id/action_teutonicFragment_to_halbshoter_Michael_Kuchmeister"
+            app:destination="@id/halbshoter_Michael_Kuchmeister" />
     </fragment>
     <fragment
         android:id="@+id/shilingKniprodeFragment"
@@ -134,4 +146,24 @@
         android:name="com.example.myapplication.ui.TeutonicCoins.Shilling_Henrich_Plauen.Shilling_Henrich_Plauen"
         android:label="fragment_shilling__henrich__plauen"
         tools:layout="@layout/fragment_shilling__henrich__plauen" />
+    <fragment
+        android:id="@+id/shilling_Herman_Gans"
+        android:name="com.example.myapplication.ui.TeutonicCoins.Shilling_Herman_Gans.Shilling_Herman_Gans"
+        android:label="fragment_shilling__herman__gans"
+        tools:layout="@layout/fragment_shilling__herman__gans" />
+    <fragment
+        android:id="@+id/shilling_Michael_Kuchmeister"
+        android:name="com.example.myapplication.ui.TeutonicCoins.Shilling_Michael_Kuchmeister.Shilling_Michael_Kuchmeister"
+        android:label="fragment_shilling__michael__kuchmeister"
+        tools:layout="@layout/fragment_shilling__michael__kuchmeister" />
+    <fragment
+        android:id="@+id/shilling_Michael_Kuchmeister_thorn"
+        android:name="com.example.myapplication.ui.TeutonicCoins.Shilling_Michael_Kuchmeister_thorn.Shilling_Michael_Kuchmeister_thorn"
+        android:label="fragment_shilling__michael__kuchmeister_thorn"
+        tools:layout="@layout/fragment_shilling__michael__kuchmeister_thorn" />
+    <fragment
+        android:id="@+id/halbshoter_Michael_Kuchmeister"
+        android:name="com.example.myapplication.ui.TeutonicCoins.Halbshoter_Michael_Kuchmeister.Halbshoter_Michael_Kuchmeister"
+        android:label="fragment_halbshoter__michael__kuchmeister"
+        tools:layout="@layout/fragment_halbshoter__michael__kuchmeister" />
 </navigation>

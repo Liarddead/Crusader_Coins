@@ -29,6 +29,10 @@ public class TeutonicFragment extends Fragment {
     RelativeLayout ShilingConradJungDanButton;
     RelativeLayout ShilingUlrichJungButton;
     RelativeLayout ShilingHenrichPlauenButton;
+    RelativeLayout ShilingHermanGansButton;
+    RelativeLayout ShilingMichaelKuchButton;
+    RelativeLayout ShilingMichaelKuchThornButton;
+    RelativeLayout HalbshoterMichaelKuchButton;
 
     public TeutonicFragment() {
         // Required empty public constructor
@@ -50,6 +54,10 @@ public class TeutonicFragment extends Fragment {
         ShilingConradJungDanButton = (RelativeLayout) root.findViewById(R.id.shiling_conrad_jung_dan_button);
         ShilingUlrichJungButton = (RelativeLayout) root.findViewById(R.id.shiling_ulrich_jung_button);
         ShilingHenrichPlauenButton = (RelativeLayout) root.findViewById(R.id.shiling_henrich_plauen_button);
+        ShilingHermanGansButton = (RelativeLayout) root.findViewById(R.id.shiling_herman_gans_button);
+        ShilingMichaelKuchButton = (RelativeLayout) root.findViewById(R.id.shiling_michael_kuch_button);
+        ShilingMichaelKuchThornButton = (RelativeLayout) root.findViewById(R.id.shiling_michael_kuch_thorn_button);
+        HalbshoterMichaelKuchButton = (RelativeLayout) root.findViewById(R.id.halbshoter_michael_kuch_button);
 
         ShilingKniprodeButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -104,6 +112,30 @@ public class TeutonicFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Navigation.findNavController(view).navigate(R.id.action_teutonicFragment_to_shilling_Henrich_Plauen);
+            }
+        });
+        ShilingHermanGansButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.action_teutonicFragment_to_shilling_Herman_Gans);
+            }
+        });
+        ShilingMichaelKuchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.action_teutonicFragment_to_shilling_Michael_Kuchmeister);
+            }
+        });
+        ShilingMichaelKuchThornButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.action_teutonicFragment_to_shilling_Michael_Kuchmeister_thorn);
+            }
+        });
+        HalbshoterMichaelKuchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.action_teutonicFragment_to_halbshoter_Michael_Kuchmeister);
             }
         });
 

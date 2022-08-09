@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.TeutonicCoins.Shilling_Conrad_Jung.Shilling_Conrad_jung">
+    tools:context=".ui.TeutonicCoins.Halbshoter_Michael_Kuchmeister.Halbshoter_Michael_Kuchmeister">
 
     <ImageView
         android:id="@+id/Top_decor"
@@ -62,7 +62,7 @@
             android:layout_gravity="top"
             android:layout_marginStart="20dp"
             android:layout_marginTop="5dp"
-            android:background="@drawable/shilling_konrad_jung" />
+            android:background="@drawable/halbshoter_michael_kuchmeister" />
 
 
         <TableLayout
@@ -101,7 +101,7 @@
                     android:gravity="left"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="Shilling"
+                    android:text="Halbshoter"
                     android:textColor="@color/black"
                     android:textSize="20dp" />
             </TableRow>
@@ -131,7 +131,7 @@
                     android:gravity="left"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="1393-1407"
+                    android:text="1414-1422"
                     android:textColor="@color/black"
                     android:textSize="20dp" />
             </TableRow>
@@ -161,7 +161,7 @@
                     android:gravity="left"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="Conrad von Jungingen"
+                    android:text="Michael Küchmeister "
                     android:textColor="@color/black"
                     android:textSize="20dp" />
             </TableRow>
@@ -191,7 +191,7 @@
                     android:gravity="left"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="1,71 g"
+                    android:text="3,09 g"
                     android:textColor="@color/black"
                     android:textSize="20dp" />
             </TableRow>
@@ -221,7 +221,7 @@
                     android:gravity="left"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="21 mm"
+                    android:text="28 mm"
                     android:textColor="@color/black"
                     android:textSize="20dp" />
             </TableRow>
@@ -275,7 +275,7 @@
                     android:gravity="left"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="70 $"
+                    android:text="130 $"
                     android:textColor="@color/black"
                     android:textSize="20dp" />
             </TableRow>
@@ -334,7 +334,7 @@
                         android:gravity="center"
                         android:paddingStart="5dp"
                         android:paddingEnd="5dp"
-                        android:text="@string/description_shil_conr_jung"
+                        android:text="@string/description_halb_michael_kuch"
                         android:textColor="@color/black"
                         android:textSize="20dp" />
 
@@ -377,5 +377,7 @@
         </RelativeLayout>
 
     </RelativeLayout>
+
+
 
 </FrameLayout>
