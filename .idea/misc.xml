@@ -9,7 +9,7 @@
         <entry key="..\:/Crusader coins/app/src/main/res/layout/activity_main.xml" value="0.1598731884057971" />
         <entry key="..\:/Crusader coins/app/src/main/res/layout/activity_main2.xml" value="0.12360688956433637" />
         <entry key="..\:/Crusader coins/app/src/main/res/layout/app_bar_main.xml" value="0.17300724637681159" />
-        <entry key="..\:/Crusader coins/app/src/main/res/layout/content_main.xml" value="0.1598731884057971" />
+        <entry key="..\:/Crusader coins/app/src/main/res/layout/content_main.xml" value="0.1" />
         <entry key="..\:/Crusader coins/app/src/main/res/layout/fragment_antioch.xml" value="0.12360688956433637" />
         <entry key="..\:/Crusader coins/app/src/main/res/layout/fragment_author.xml" value="0.1" />
         <entry key="..\:/Crusader coins/app/src/main/res/layout/fragment_coins.xml" value="0.1" />
@@ -28,6 +28,7 @@
         <entry key="..\:/Crusader coins/app/src/main/res/layout/fragment_shilling__michael__kuchmeister_thorn.xml" value="0.1" />
         <entry key="..\:/Crusader coins/app/src/main/res/layout/fragment_shilling__ulrich__jung.xml" value="0.16620370370370371" />
         <entry key="..\:/Crusader coins/app/src/main/res/layout/fragment_shilling_kniprode_alternative.xml" value="0.22592592592592592" />
+        <entry key="..\:/Crusader coins/app/src/main/res/layout/fragment_shilling_paul_rubdorf.xml" value="0.15925925925925927" />
         <entry key="..\:/Crusader coins/app/src/main/res/layout/fragment_teutonic.xml" value="0.2" />
         <entry key="..\:/Crusader coins/app/src/main/res/layout/fragment_tripoli.xml" value="0.12360688956433637" />
         <entry key="..\:/Crusader coins/app/src/main/res/layout/fragment_vierchen_kniprode.xml" value="0.16620370370370371" />

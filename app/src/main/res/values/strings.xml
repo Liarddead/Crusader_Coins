@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Crusader coins</string>
+    <string name="app_name">Articles</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Crusader Coins</string>
@@ -7,7 +7,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
+    <string name="menu_home">Articles</string>
     <string name="menu_gallery">Coins</string>
     <string name="menu_slideshow">Collection</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -125,6 +125,16 @@
         Obverse: Grandmaster shielded arms, legend surrounding.
 
         Reverse: Great cross within quatrefoil, legend surrounding.
+
+        Technique: Hammered.
+    </string>
+
+    <string name="description_shil_paul_rubdorf">
+        Obverse: Shield with shielded eagle arms, small cross within large cross.
+        Lettering: MAGS - T PA - VLVS - PRIM.
+
+        Reverse: Cross within shield, legend surrounding.
+        Lettering: MONE - TA DN - ORVM - PRVC.
 
         Technique: Hammered.
     </string>

@@ -33,6 +33,7 @@ public class TeutonicFragment extends Fragment {
     RelativeLayout ShilingMichaelKuchButton;
     RelativeLayout ShilingMichaelKuchThornButton;
     RelativeLayout HalbshoterMichaelKuchButton;
+    RelativeLayout ShilingPaulRubdorfButton;
 
     public TeutonicFragment() {
         // Required empty public constructor
@@ -58,6 +59,7 @@ public class TeutonicFragment extends Fragment {
         ShilingMichaelKuchButton = (RelativeLayout) root.findViewById(R.id.shiling_michael_kuch_button);
         ShilingMichaelKuchThornButton = (RelativeLayout) root.findViewById(R.id.shiling_michael_kuch_thorn_button);
         HalbshoterMichaelKuchButton = (RelativeLayout) root.findViewById(R.id.halbshoter_michael_kuch_button);
+        ShilingPaulRubdorfButton = (RelativeLayout) root.findViewById(R.id.shilling_paul_rubdorf_button);
 
         ShilingKniprodeButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -136,6 +138,12 @@ public class TeutonicFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Navigation.findNavController(view).navigate(R.id.action_teutonicFragment_to_halbshoter_Michael_Kuchmeister);
+            }
+        });
+        ShilingPaulRubdorfButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.action_teutonicFragment_to_shilling_Paul_Rubdorf);
             }
         });
 
